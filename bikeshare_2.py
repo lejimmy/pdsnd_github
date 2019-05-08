@@ -4,13 +4,14 @@ import numpy as np
 
 # formatting by black
 
-# global variables for data files and months
+# global variables for data files
 CITY_DATA = {
     "chicago": "chicago.csv",
     "new york city": "new_york_city.csv",
     "washington": "washington.csv",
 }
 
+# global variables for available months and days
 months = ["january", "february", "march", "april", "may", "june", "all"]
 days = [
     "monday",
@@ -36,6 +37,7 @@ def get_filters():
 
     while True:
         # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+        print("Which city data would you like to look at?")
         city = input("Enter a city (Chicago, New York City, or Washington): ").lower()
 
         # if city is not valid, restart the while loop
