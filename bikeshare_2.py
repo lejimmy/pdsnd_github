@@ -2,6 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
+# formatting by black
+
 # global variables for data files and months
 CITY_DATA = {
     "chicago": "chicago.csv",
