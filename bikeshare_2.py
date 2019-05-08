@@ -35,6 +35,7 @@ def get_filters():
 
     while True:
         # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+        print("Which city data would you like to look at?")
         city = input("Enter a city (Chicago, New York City, or Washington): ").lower()
 
         # if city is not valid, restart the while loop
