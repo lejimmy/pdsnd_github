@@ -23,3 +23,6 @@ https://docs.python.org/3/tutorial/
 
 Counting Unique Combination of Columns:
 https://stackoverflow.com/questions/35268817/unique-combinations-of-values-in-selected-columns-in-pandas-data-frame-and-count
+
+Code formatter:
+https://black.readthedocs.io/en/stable/
