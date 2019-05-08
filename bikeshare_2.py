@@ -2,13 +2,14 @@ import time
 import pandas as pd
 import numpy as np
 
-# global variables for data files and months
+# global variables for data files
 CITY_DATA = {
     "chicago": "chicago.csv",
     "new york city": "new_york_city.csv",
     "washington": "washington.csv",
 }
 
+# global variables for available months and days
 months = ["january", "february", "march", "april", "may", "june", "all"]
 days = [
     "monday",
