@@ -11,7 +11,9 @@ The code imports the data and answers interesting questions about it by computin
 
 ### Files used
 chicago.csv
+
 new_york_city.csv
+
 washington.csv
 
 ### Credits
